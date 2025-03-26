@@ -1,5 +1,5 @@
-[English]()
-[日本語]()
+[English](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-en.md)
+[日本語](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-ja.md)
 
 # カウントダウン + パーティクルアニメーション
 

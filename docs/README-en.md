@@ -1,3 +1,6 @@
+[English](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-en.md)
+[Japanese](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-ja.md)
+
 # Countdown + Particle Animation
 
 This project is a web application that combines a countdown timer with a dynamic particle animation. When the countdown reaches zero, the particles explode outward, creating an engaging visual effect.  

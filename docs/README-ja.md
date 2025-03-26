@@ -1,3 +1,6 @@
+[英語](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-en.md)
+[日本語](https://github.com/Yukkurisiteikitai/Stylish_timer/blob/main/docs/README-ja.md)
+
 # カウントダウン + パーティクルアニメーション
 
 このプロジェクトは、指定された日付までのカウントダウンタイマーと、期限が到来するとパーティクルが爆発的に弾けるアニメーションを組み合わせたウェブサイトです。  
