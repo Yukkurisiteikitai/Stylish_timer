@@ -1,0 +1,71 @@
+/* 全体リセット */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+/* 背景のグラデーション（p5 の背景と合わせて使う） */
+body {
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* p5.js キャンバスを全画面に固定配置 */
+#p5-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* カウントダウン表示のコンテナ */
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* カウントダウンのカード */
+.card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+/* タイトルのスタイル */
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* カウントダウンタイマーのスタイル */
+#countdown {
+    font-size: 1.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #countdown {
+        font-size: 1.5em;
+    }
+}
