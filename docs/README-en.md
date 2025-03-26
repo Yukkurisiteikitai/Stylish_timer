@@ -121,7 +121,7 @@ This project is released under the MIT License. Feel free to use, modify, and di
 
 ## ✨ Credits
 
-- Developer: **Your Name**
+- Developer: **Yukkurisiteikitai**
 - Framework: [p5.js](https://p5js.org/)
 - Font: [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat)
 

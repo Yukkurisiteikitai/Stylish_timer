@@ -120,7 +120,7 @@ project/
 
 ## ✨ クレジット
 
-- 開発者: **あなたの名前**
+- 開発者: **Yukkurisiteikitai**
 - フレームワーク: [p5.js](https://p5js.org/)
 - フォント: [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat)
 

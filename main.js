@@ -1,8 +1,9 @@
 // --------------------------
 // カウントダウン・タイトル更新処理
 // --------------------------
-const targetDate = new Date('2025-03-26T14:03:00');
+const targetDate = new Date('2025-03-26T19:10:00');
 let exploded = false; // 期限到来後、爆発状態にするためのフラグ
+const sound = new Audio('test.mp3');
 
 // targetDate から年月日を取得し、タイトルを更新
 const year = targetDate.getFullYear();
@@ -86,6 +87,7 @@ class Particle {
         this.r += this.explosionSpeed;
         // 爆発後、角度に僅かなランダム変化を加える（見た目にゆらぎをつける）
         this.angle += this.explosionAngleSpeed;
+        sound.play();
     }
     }
 

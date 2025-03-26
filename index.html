@@ -8,17 +8,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <!-- p5.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
-  <link rel="stylesheet" href="style.css" type="text/css">
-
+  <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
-  <!-- p5.js を差し込むための要素 -->
   <div id="p5-background"></div>
-
-  <!-- カウントダウン表示 -->
   <div class="container">
-    <div class="card">
-      <!-- タイトルを動的に更新するため id="title" を追加 -->
+    <div class="card" id="countdown-card">
       <h1 id="title">Loading...</h1>
       <div id="countdown">Loading...</div>
     </div>
